@@ -20,7 +20,7 @@ public class TestClient {
                         59.289521, 18.056593, "2024-03-01T08:00:00", "user_" + i);
                 MqttMessage message = new MqttMessage(payload.getBytes());
                 sampleClient.publish("user/trajectory", message);
-                Thread.sleep(1000);
+                Thread.sleep(1000);  // Adjust the sleep time as needed
             }
 
             sampleClient.disconnect();

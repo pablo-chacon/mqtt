@@ -1,4 +1,4 @@
-package com.example.gpxlocationmqtt;
+package com.example.gpxlocationmqtt.util;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.example.gpxlocationmqtt;
+package com.example.gpxlocationmqtt.mqtt;
 
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.springframework.beans.factory.annotation.Value;
@@ -71,3 +71,4 @@ public class MqttConfig {
         };
     }
 }
+

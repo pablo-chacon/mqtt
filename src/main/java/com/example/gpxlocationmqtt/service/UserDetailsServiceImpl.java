@@ -1,4 +1,5 @@
-package com.example.gpxlocationmqtt;
+package com.example.gpxlocationmqtt.service;
+
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

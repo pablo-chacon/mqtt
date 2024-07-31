@@ -1,5 +1,6 @@
-package com.example.gpxlocationmqtt;
+package com.example.gpxlocationmqtt.security;
 
+import com.example.gpxlocationmqtt.util.JwtRequestFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -50,3 +51,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         return super.authenticationManagerBean();
     }
 }
+

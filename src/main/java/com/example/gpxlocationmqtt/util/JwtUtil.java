@@ -1,4 +1,4 @@
-package com.example.gpxlocationmqtt;
+package com.example.gpxlocationmqtt.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -42,3 +42,4 @@ public class JwtUtil {
         return getClaimsFromToken(token).getSubject();
     }
 }
+
