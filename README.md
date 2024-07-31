@@ -1,4 +1,6 @@
 # Public Transportation Optimization - Spring Boot Service
+This is a work in progress. Some bugs to fix.
+
 
 ## Overview
 This project is a Spring Boot application designed to work in conjunction with a Python-based Public Transportation Optimization Project. The Spring Boot service handles user authentication via JWT, processes user trajectory data via MQTT, and supports multithreading to manage multiple users effectively.
